@@ -1,0 +1,11 @@
+BACKUP ~PLYEXMPLMOD/backup~
+AUTHOR ~ThisIsUlb@gmail.com~
+
+
+
+BEGIN 
+~UB_+PLY Excample Mod~ 
+INCLUDE ~%MOD_FOLDER%/lib/UB_+PLY.tpa~ // installs Magic Dampening Device
+COPY ~%MOD_FOLDER%/SPPR150.SPL~ ~override~ // replaces 'Spirit Ward' level 1 spell with a spell to summon Magic Dampening Device
+SAY NAME1 ~Summon Magic Dampening Device~
+SAY UNIDENTIFIED_DESC ~Summon Magic Dampening Device~

@@ -1,0 +1,11 @@
+IF
+	HPLT(Myself,2)
+	Global("UB_+DEAD","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("UB_+DEAD","LOCALS",1)
+		ReallyForceSpellRES("UB_+PLYD",Myself)  // No such index
+		DisplayString(Myself,~Destroyed~)  // Destroyed
+		SetInterrupt(TRUE)
+END

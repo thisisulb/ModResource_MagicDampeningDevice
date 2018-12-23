@@ -1,0 +1,10 @@
+COPY ~%MOD_FOLDER%/UB_+PLY/COPY~ ~override~
+COMPILE ~%MOD_FOLDER%/UB_+PLY/UB_+PLY.BAF~
+ADD_PROJECTILE ~%MOD_FOLDER%/UB_+PLY/UB_+PLY.PRO~  ~UB_+PLY~   //projectile
+COPY ~%MOD_FOLDER%/UB_+PLY/UB_+NONE.SPL~ ~override~
+WRITE_SHORT 0x098 ~%UB_+PLY%~
+COPY ~%MOD_FOLDER%/UB_+PLY/UB_+PLYD.SPL~ ~override~
+WRITE_SHORT 0x098 ~%UB_+PLY%~
+COPY ~%MOD_FOLDER%/UB_+PLY/UB_+PLY.CRE~ ~override~
+SAY NAME1 ~Magic Dampening Device~
+SAY NAME2 ~Magic Dampening Device~
