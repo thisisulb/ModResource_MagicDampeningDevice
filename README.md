@@ -23,17 +23,17 @@ magic damage dealt: -50%
 
 **To include the Magic Dampening Device Mod-Builder-Block into a mod:**  
   
-1. drop the 'lib' and 'UB_+PLY' folders into the mod main folder // if lib folder already exists drop files from one/or integrate one into the other
+1. drop the `lib` and `UB_+PLY` folders into the mod main folder // if lib folder already exists drop files from one/or integrate one into the other
   
 2. add the following code to your mod .tp2 file:  
    `INCLUDE ~%MOD_FOLDER%/lib/UB_+PLY.tpa~`   
      
 3. relevant files to modify the Mod-Builder-Block  
-   -creature file: UB_+PLY.CRE (Default name: 'Magic Dampening Device')  
-   -'Magic Dampening Aura' payload: UB_+NONE.SPL  
+   -creature file: `UB_+PLY.CRE` (Default name: 'Magic Dampening Device')  
+   -'Magic Dampening Aura' payload: `UB_+NONE.SPL`  
    
 4. TRA-fying:   
-   the mod only contains one line of text, which can be found in %MOD_FOLDER%/lib/UB_+PLY.tpa  
+   the mod only contains one line of text, which can be found in `%MOD_FOLDER%/lib/UB_+PLY.tpa`  
   
 change-log  
      
