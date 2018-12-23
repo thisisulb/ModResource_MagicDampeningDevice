@@ -1,6 +1,6 @@
-#Mod Resource - Magic Dampening Device  
-##This is a 'plug-in' to be used in other mods.  
-###It adds a creature with custom graphics to the game which will pulse a spellcasting inhibiting aura.  
+## Mod Resource - Magic Dampening Device  
+### This is a 'plug-in' to be used in other mods.  
+### It adds a creature with custom graphics to the game which will pulse a spellcasting inhibiting aura.  
   
 The creature and magic dampening aura default stats:  
   
